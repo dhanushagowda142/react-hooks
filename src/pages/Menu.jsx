@@ -26,7 +26,7 @@ function Menu() {
                 </li>
                 <li className="nav-item">
                     <NavLink to={'/hooks/state'} className='nav-link'>State Hooks</NavLink>
-                    <ul className="nav flex-column- ms-4">
+                    <ul className="nav flex-column ms-4">
                         <li className="nav-link">
                             <NavLink to={'/hooks/state/useState'} className="nav-link">useState Hook</NavLink>
                         </li>
@@ -37,6 +37,14 @@ function Menu() {
                 </li>
                 <li className="nav-item">
                     <NavLink to={'/hooks/effect'} className='nav-link'>Effect Hooks</NavLink>
+                    <ul className="nav flex-column ms-4">
+                        <li className="nav-link">
+                            <NavLink to={'/hooks/effect/useEffect'} className="nav-link">useEffect Hook</NavLink>
+                        </li>
+                        <li className="nav-link">
+                            <NavLink to={'/hooks/effect/useLayoutEffect'} className="nav-link">useLayoutEffect  Hook</NavLink>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
